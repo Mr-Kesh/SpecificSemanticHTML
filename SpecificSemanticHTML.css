@@ -38,6 +38,7 @@ body, html {
     height: 100vh; 
     overflow-y: auto; 
     font-weight: bold;
+    margin-top: 20px;
 }
 
 #sidebar h2 {
@@ -97,29 +98,28 @@ p {
     line-height: 1.6;
 }
 
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-    white-space: nowrap;
+.skip-nav {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
 }
 
-.sr-only:focus {
-    position: static;
-    width: auto;
-    height: auto;
-    margin: 0;
-    clip: auto;
+.skip-nav a {
+    background-color: white;
     color: black; 
-    background-color: #f0e68c; 
-    padding: 10px; 
-    text-decoration: none; 
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
 }
+
+.skip-nav a:hover,
+.skip-nav a:focus {
+    outline: 2px solid #0056b3; 
+    background-color: #ffe680;
+    color: black;
+}
+
 
 
 
@@ -273,11 +273,8 @@ select:hover {
 }
 
 
-.skip-nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+
+
 
 .icon-header {
     display: flex;
