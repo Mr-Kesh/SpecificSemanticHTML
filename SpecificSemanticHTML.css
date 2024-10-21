@@ -288,4 +288,17 @@ select:hover {
     color: rgb(215, 255, 255);
 }
 
+.site-footer {
+    background-color: black; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px; 
+    font-size: 2rem; 
+    position: relative;
+    width: 100%;
+}
+
+.site-footer p {
+    margin: 0; 
+}
 
