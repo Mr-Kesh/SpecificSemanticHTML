@@ -265,3 +265,13 @@ select {
 select:hover {
     border-color: #0056b3;
 }
+
+
+.skip-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
