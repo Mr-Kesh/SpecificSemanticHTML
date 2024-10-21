@@ -116,6 +116,7 @@ p {
     margin: 0;
     clip: auto;
     color: white;
+    background-color: black;
 }
 
 
@@ -275,5 +276,16 @@ select:hover {
     left: 0;
 }
 
+.icon-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust spacing below the header */
+}
+
+.icon-header .material-icons {
+    margin-right: 10px; /* Space between icon and the header */
+    font-size: 2rem; /* Adjust size of the icon */
+    color: rgb(215, 255, 255);
+}
 
 
