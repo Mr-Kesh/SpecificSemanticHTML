@@ -279,12 +279,12 @@ select:hover {
 .icon-header {
     display: flex;
     align-items: center;
-    margin-bottom: 20px; /* Adjust spacing below the header */
+    margin-bottom: 20px; /
 }
 
 .icon-header .material-icons {
-    margin-right: 10px; /* Space between icon and the header */
-    font-size: 2rem; /* Adjust size of the icon */
+    margin-right: 10px; 
+    font-size: 2rem; 
     color: rgb(215, 255, 255);
 }
 
