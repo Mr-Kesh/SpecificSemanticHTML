@@ -115,9 +115,12 @@ p {
     height: auto;
     margin: 0;
     clip: auto;
-    color: rgb(215, 255, 255);
-    background-color: rgb(60, 20, 6);
+    color: black; 
+    background-color: #f0e68c; 
+    padding: 10px; 
+    text-decoration: none; 
 }
+
 
 
 img {
